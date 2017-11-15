@@ -5,23 +5,20 @@ public class ClasseEObjetoResposta1 {
 	public static void main(String[] args) {
 
 		// Para criar uma inst√¢ncia de uma classe use a palavra chave new
-		// Por exemplo, para criar uma inst√¢ncia da classe String
+		// Por exemplo, para criar uma inst‚ncia da classe String
 		// procedemos como segue
-		String strObjeto1 = new String("Este objeto e uma inst√¢ncia da classe String");
-		System.out.println("estado da inst√¢ncia de strObjeto1 = " + strObjeto1);
+		String strObjeto1 = new String("Este objeto e uma inst‚ncia da classe String");
+		System.out.println("Estado da inst‚ncia de strObjeto1 = " + strObjeto1);
 
-		// A classe String e uma classe especial que permite a cria√ß√£o de uma
-		// inst√¢ncia pela atribui√ß√£o de um literal string. Nenhuma outra classe
-		// em java permite este tipo de cria√ß√£o. Al√©m disso para cada literal
-		// string e criada uma √∫nica inst√¢ncia desta string
-		String strObjeto2 = "Este objeto √© uma inst√¢ncia da classe String";
-		System.out.println("estado da inst√¢ncia de strObjeto2 = " + strObjeto2);
+		// A classe String e uma classe especial que permite a criaÁ„o de uma
+		// inst‚ncia pela atribuiÁ„o de um literal string. Nenhuma outra classe
+		// em java permite este tipo de criaÁ„o. AlÈm disso para cada literal
+		// string e criada uma ˙nica inst‚ncia desta string
+		String strObjeto2 = "Este objeto È uma inst‚ncia da classe String";
+		System.out.println("estado da inst‚ncia de strObjeto2 = " + strObjeto2);
 
-		// todo 1 - altere para criar uma nova String
-		String strObjeto3 = ;
-
-		// todo 2 - altere para mostrar o estado da inst√¢ncia de String nova
-		System.out.println("estado da inst√¢ncia de strObjeto3 = ");
+		String strObjeto3 = "Eu sou outra inst‚ncia da classe String";
+		System.out.println("Estado da inst‚ncia de strObjeto3 = " + strObjeto3);
 
 	}
 

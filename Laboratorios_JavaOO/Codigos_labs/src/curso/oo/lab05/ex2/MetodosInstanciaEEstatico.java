@@ -1,15 +1,16 @@
+
 package curso.oo.lab05.ex2;
 
 public class MetodosInstanciaEEstatico {
 
 	public static void main(String[] args) {
 
-		// Cria duas inst√¢ncias da classe String
+		// Cria duas inst‚ncias da classe String
 		String strInst1 = new String("Sou uma inst√¢ncia de objeto da classe String");
 		String strInst2 = "Viva com paix√£o!";
 
-		// Invoca o m√©todo de inst√¢ncia charAt()
-		// atrav√©s das inst√¢ncias da classe String
+		// Invoca o mÈtodo de inst‚ncia charAt()
+		// atravÈs das inst‚ncias da classe String
 		char x = strInst1.charAt(2);
 		char y = strInst2.charAt(1);
 		char z = strInst2.charAt(0);
@@ -18,19 +19,19 @@ public class MetodosInstanciaEEstatico {
 		System.out.println("O 2.o caracter da strInst2 = " + y);
 		System.out.println("O 1.o caracter da strInst2 = " + z);
 
-		// Invoca o m√©todo de inst√¢ncia equalsIgnoreCase(...)
+		// Invoca o mÈtodo de inst‚ncia equalsIgnoreCase(...)
 		boolean b = strInst1.equalsIgnoreCase(strInst2);
-		String strInst3 = b ? "Sim" : "N√£o";
+		String strInst3 = b ? "Sim" : "N„o";
 		
-		System.out.println("As vari√°veis strInst1 " + " e strInst2 tem o mesmo" + " conjunto de caracteres? " + strInst3);
-		// Invoca um m√©todo est√°tico, valueOf (int i), da classe String
+		System.out.println("As vari·veis strInst1 " + " e strInst2 tem o mesmo" + " conjunto de caracteres? " + strInst3);
+		// Invoca um mÈtodo est·tico, valueOf (int i), da classe String
 		int i = 23;
 		String strInst4 = String.valueOf(i);
 		System.out.println("valor de strInst4 = " + strInst4);
 
-		// Voc√™ j√° usou o m√©todo est√°tico parseInt() da classe
-		// Integer no exerc√≠¬¨cio anterior
-		// Agora cria uma inst√¢ncia de objeto da classe String
+		// VocÍ j· usou o mÈtodo est·tico parseInt() da classe
+		// Integer no exercÌcio anterior
+		// Agora cria uma inst‚ncia de objeto da classe String
 		String strInst5 = new String("34");
 		int ii = Integer.parseInt(strInst5);
 		System.out.println("valor de ii = " + ii);
